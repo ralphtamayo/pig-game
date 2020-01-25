@@ -1,4 +1,4 @@
-#The Pig Game
+## The Pig Game
 
 **GAME RULES:**
 1. The game has 2 players, playing in rounds
