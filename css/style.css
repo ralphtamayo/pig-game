@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto&display=swap');
+
+body, html {
+	height: 100%;
+}
+
+body {
+	background: #7DC3AE;
+	font-family: 'Roboto', sans-serif;
+	color: #414141;
+}
+
+h1, h2, h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.game-title {
+	text-align: center;
+}
+
+.game-title h1 {
+	color: #FFFFFF;
+	font-size: 60px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.game-title small {
+	opacity: 0.4;
+}
+
+.game-board {
+	background: none;
+	border: none;
+}
+
+.pig {
+	color: #C38D9E;
+}
+
+#mainMenu ul li:hover {
+	text-decoration: underline;
+}
