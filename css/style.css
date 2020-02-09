@@ -5,12 +5,12 @@ body, html {
 }
 
 body {
-	background: #7DC3AE;
+	background-color: #7DC3AE;
 	font-family: 'Roboto', sans-serif;
 	color: #414141;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: 'Oswald', sans-serif;
 }
 
@@ -24,7 +24,6 @@ ul {
 
 .game-title h1 {
 	color: #FFFFFF;
-	font-size: 60px;
 	text-transform: uppercase;
 	display: inline-block;
 }
@@ -33,15 +32,44 @@ ul {
 	opacity: 0.4;
 }
 
-.game-board {
-	background: none;
-	border: none;
-}
-
 .pig {
 	color: #C38D9E;
 }
 
 #mainMenu ul li:hover {
 	text-decoration: underline;
+}
+
+#inGame .score {
+	color: #E27D60;
+}
+
+#inGame .player-name {
+	text-transform: uppercase;
+}
+
+#inGame .current-roll {
+	padding: 10px;
+	width: 150px;
+	margin: auto;
+}
+
+.btn-pink {
+	background-color: #C38D9E;
+	color: #FFFFFF;
+}
+
+.btn-pink:hover {
+	background-color: #AD808D;
+	color: #FFFFFF;
+}
+
+.btn-orange {
+	background-color: #E27D60;
+	color: #FFFFFF;
+}
+
+.btn-orange:hover {
+	background-color: #C96D54;
+	color: #FFFFFF;
 }
