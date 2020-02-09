@@ -73,3 +73,8 @@ ul {
 	background-color: #C96D54;
 	color: #FFFFFF;
 }
+
+.btn-pink:focus,
+.btn-orange:focus {
+	box-shadow: none;
+}
